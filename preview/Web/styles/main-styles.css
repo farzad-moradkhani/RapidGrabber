@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+.main {
+    flex: 1;
+    background-color: #F6C94F;
+}
+.queueList{
+    width: 100%;
+    justify-items: center;
+    margin-inline: 20px;
+    
+}
+.queueList li{
+    justify-content: baseline;
+    display: flex;
+    width: 70%;
+    max-width: 800px;
+    margin-block: 30px;
+    height: 50px;
+}
+.queueInfo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+    cursor: pointer;
+}
+.queueInfo_name{
+    flex: 3;
+    
+}
+.queueInfo_size{
+    flex:1;
+}
+.queueInfo_path{
+    flex: 3;
+}
+.queueInfo_progress{
+    flex: 1;
+}
+h2{
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+h2 p {
+    margin-left: 10px;
+}
+h2 img{
+    width: 60px;
+}
+.panel {
+    width: 250px;
+    background-color: #FFFFFF;
+    color: white;
+    padding: 20px;
+}
+.panel ul {
+    list-style: none;
+    padding: 0;
+}
+.panel li {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    padding-block: 20px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    box-shadow: none; /* Remove shadow effect */
+}
+.panel p{
+    margin-left: 20px;
+    color: black;
+}
+.panel img{
+    width: 50px;
+}
+.panel li:hover {
+    background: #f6ca4f87;
+}
+ul {
+    list-style: none;
+}
+li {
+    background: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
